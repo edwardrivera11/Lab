@@ -1,0 +1,143 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game3-21/Desktop/Create with Code/Lab
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62329
+Successfully changed project path to: /Users/game3-21/Desktop/Create with Code/Lab
+/Users/game3-21/Desktop/Create with Code/Lab
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game3-21/Desktop/Create with Code/Lab/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-12-12 12:05:27.774 Unity[8730:4919829] iMac preferred device: AMD Radeon Pro 5300 (high power)
+2022-12-12 12:05:27.774 Unity[8730:4919829] Metal devices available: 1
+2022-12-12 12:05:27.774 Unity[8730:4919829] 0: AMD Radeon Pro 5300 (high power)
+2022-12-12 12:05:27.775 Unity[8730:4919829] Using device AMD Radeon Pro 5300 (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56730
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002045 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 67.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.296 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004234 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.5 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3117.
+Total: 1.860228 ms (FindLiveObjects: 0.221440 ms CreateObjectMapping: 0.105557 ms MarkObjects: 1.473812 ms  DeleteObjects: 0.058598 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.013831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.352706 seconds.
+  path: Assets/Scenes/My Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/My Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af9826c42709b4c285f03a4648a57b4') in 0.002096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 194.424819 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(08f0d7450a0be4b5fae8cec05c08fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(08f0d7450a0be4b5fae8cec05c08fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec801876dd67ae236d6d5962659d1e1b') in 0.002196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.174404 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(b4fbb706a61d2470cb14e60cd20ba4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(b4fbb706a61d2470cb14e60cd20ba4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0145a9a9c5fb259222afdd5a97aad0') in 1.123991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 543.443949 seconds.
+  path: Assets/Materials/purple.mat
+  artifactKey: Guid(920718d615153428cabf7d217c29bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/purple.mat using Guid(920718d615153428cabf7d217c29bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b84d2ba77b02d8621d5d280bd92cc7b') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.428665 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(c8d7ce5b33430497da29b2bc30e56e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(c8d7ce5b33430497da29b2bc30e56e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe3a37b1b1bb91336852581739beb16') in 0.011032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.719801 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(c8d7ce5b33430497da29b2bc30e56e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(c8d7ce5b33430497da29b2bc30e56e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0197c6199738008b629efe0c375b98d2') in 0.008477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.338410 seconds.
+  path: Assets/Materials/coin.mat
+  artifactKey: Guid(ce99c67e89bdb43b2813773c2157e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/coin.mat using Guid(ce99c67e89bdb43b2813773c2157e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1f16ded67ca27d31a5c487ead0b9bf') in 0.010213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 400.779630 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(b4fbb706a61d2470cb14e60cd20ba4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(b4fbb706a61d2470cb14e60cd20ba4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c8f73aa10b8aad31c327a22f54c32c') in 0.015403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001542 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(c8d7ce5b33430497da29b2bc30e56e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(c8d7ce5b33430497da29b2bc30e56e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd348b49a52ae497616b276f54d33371b') in 0.008005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001402 seconds.
+  path: Assets/Materials/purple.mat
+  artifactKey: Guid(920718d615153428cabf7d217c29bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/purple.mat using Guid(920718d615153428cabf7d217c29bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1d9b605a686d85f194543a496a9459') in 0.007402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001549 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(38fa32066fb0f4a18bbeee49e7ad698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(38fa32066fb0f4a18bbeee49e7ad698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c51dd3bf2d1037e38c85ed244f4f733') in 0.000777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001159 seconds.
+  path: Assets/Materials/coin.mat
+  artifactKey: Guid(ce99c67e89bdb43b2813773c2157e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/coin.mat using Guid(ce99c67e89bdb43b2813773c2157e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ac5c7d930d48d3ce9a76c6cdaed764') in 0.007890 seconds 
